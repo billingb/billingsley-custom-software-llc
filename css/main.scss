@@ -7,9 +7,10 @@
 @import "bootswatch";
 
 footer {
-  background-color: $brand-primary;
-  color: #fff;
-  padding: 30px 0 100px 0;
+  border-top: solid thin $gray-lighter;
+  background-color: $body-bg;
+  padding: 20px 0 100px 0;
+  margin-top: 10px;
 
   ul {
     padding-left: 0;
@@ -61,6 +62,7 @@ h2 {
 .portfolio-screenshot {
   position: relative;
   width: 100%;
+  max-width: 400px;
   height: auto;
   float: left;
   margin-top: 10px;
