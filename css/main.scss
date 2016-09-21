@@ -6,6 +6,14 @@
 @import "bootstrap";
 @import "bootswatch";
 
+ul.text-list {
+  list-style: none;
+}
+
+li {
+  margin-top: 5px;
+}
+
 footer {
   border-top: solid thin $gray-lighter;
   background-color: $body-bg;
@@ -44,7 +52,8 @@ footer {
 }
 
 .tooliconbar {
-  @extend .col-md-12;
+  @extend .col-md-10;
+  @extend .col-md-offset-1;
   @extend .text-center;
   padding-top: 15px;
 }
@@ -56,6 +65,10 @@ footer {
 
 h2 {
   margin-top: 35px;
+}
+
+.list-header {
+  display: inline;
 }
 
 // Image hovereffect styling
@@ -94,4 +107,24 @@ h2 {
   opacity: 1;
   transition: opacity .35s ease-in-out;
   -moz-transition: opacity .35s ease-in-out;
+}
+
+ul.workExperience {
+  @extend .row;
+  list-style: none;
+  padding-left: 0;
+}
+
+li.entry {
+  @extend .col-md-12;
+  @extend .clearfix;
+}
+
+img.project-screenshot {
+  @extend .pull-left;
+  max-width: 250px;
+}
+
+div.description {
+  @extend .pull-left;
 }
