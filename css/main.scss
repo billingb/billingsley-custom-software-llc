@@ -10,10 +10,6 @@ ul.text-list {
   list-style: none;
 }
 
-li {
-  margin-top: 5px;
-}
-
 footer {
   border-top: solid thin $gray-lighter;
   background-color: $body-bg;
@@ -39,6 +35,7 @@ footer {
     clear: none;
     float: left;
     padding-right: 3px;
+    margin-top: 0;
   }
 }
 
@@ -121,6 +118,8 @@ ul.workExperience {
 li.entry {
   @extend .col-md-12;
   @extend .clearfix;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 img.project-screenshot {
