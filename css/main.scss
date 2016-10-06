@@ -114,6 +114,25 @@ h2 {
   -moz-transition: opacity .35s ease-in-out;
 }
 
+.about {
+  @extend .col-md-offset-1;
+  @extend .col-md-10;
+}
+
+.brendan-photo {
+  @extend .text-center;
+  max-width: 250px;
+  padding: 10px;
+  float: left;
+
+  img {
+    @extend .img-responsive;
+    @extend .img-circle;
+    float: left;
+
+  }
+}
+
 ul.workExperience {
   @extend .row;
   list-style: none;
