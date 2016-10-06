@@ -125,10 +125,11 @@ h2 {
   float: left;
   max-width: 250px;
 
-  @media screen and (max-width: 320px) {
-    max-width: 100%;
+  @media screen and (max-width: 450px) {
     float: none;
     padding: 0 0 10px 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   img {
