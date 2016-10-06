@@ -62,6 +62,10 @@ footer {
 
 h2 {
   margin-top: 35px;
+
+  small {
+    font-size: $font-size-base;
+  }
 }
 
 .list-header {
@@ -122,7 +126,7 @@ li.entry {
   margin-bottom: 20px;
 }
 
-img.project-screenshot {
+img.portfolio-screenshot {
   @extend .pull-left;
   max-width: 250px;
 }
