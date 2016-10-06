@@ -121,14 +121,19 @@ h2 {
 
 .brendan-photo {
   @extend .text-center;
-  max-width: 250px;
   padding: 10px;
   float: left;
+  max-width: 250px;
+
+  @media screen and (max-width: 320px) {
+    max-width: 100%;
+    float: none;
+    padding: 0 0 10px 0;
+  }
 
   img {
     @extend .img-responsive;
     @extend .img-circle;
-    float: left;
 
   }
 }
